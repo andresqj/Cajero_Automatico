@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(to top, #0f4ca1be, #4e76b9, #f5f6f7, #f5f6f7, #f5f6f7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;;
+}
+
+#main-menu button {
+    padding-block: 1rem;
+    width: 200px;
+    border: 0;
+    outline: 0;
+    background-color: #0f4da1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+#main-menu button:hover  {
+    opacity: .8;
+}
